@@ -1,2 +1,3 @@
 # fast-doc-change
-java服务端单据变更的实现
+
+fast-doc-change 是一个快速进行单据变更的Java框架服务。
