@@ -1,4 +1,4 @@
-package github.yangsx95.fastdocchange;
+package github.yangsx95.fdc;
 
 /**
  * 变更记录对象，变更记录一旦创建就不可修改

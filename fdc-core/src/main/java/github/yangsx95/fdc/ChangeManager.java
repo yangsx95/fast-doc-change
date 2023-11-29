@@ -1,4 +1,4 @@
-package github.yangsx95.fastdocchange;
+package github.yangsx95.fdc;
 
 /**
  * 变更的生命周期管理器，主要对变更状态进行管理
@@ -46,20 +46,20 @@ public interface ChangeManager {
     void cancel(String changeId);
 
     /**
-     * 获取最新的版本次序的变更
-     *
-     * @param docNo   单据编号
-     * @param docType 单据类型
-     * @return 最新的版本次序的变更，如果没有变更则返回null
-     */
-    ChangeModel getNewestChange(String docNo, String docType);
-
-    /**
      * 获取变更编号对应的变更
      *
      * @param changeId 变更id
      * @return 变更，如果没有变更则返回null
      */
     ChangeModel getChangeById(String changeId);
+
+    /**
+     * 获取最新的版本次序的变更，不会返回处于已取消状态的变更
+     *
+     * @param docNo   单据编号
+     * @param docType 单据类型
+     * @return 最新的版本次序的变更，如果没有变更则返回null
+     */
+    ChangeModel getNewestChange(String docNo, String docType);
 
 }

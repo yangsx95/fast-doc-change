@@ -1,4 +1,4 @@
-package github.yangsx95.fastdocchange;
+package github.yangsx95.fdc;
 
 /**
  * @author yangshunxiang

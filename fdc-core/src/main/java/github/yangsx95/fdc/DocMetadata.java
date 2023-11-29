@@ -1,4 +1,4 @@
-package github.yangsx95.fastdocchange;
+package github.yangsx95.fdc;
 
 /**
  * 单据信息元数据，用于存储一些额外的业务信息

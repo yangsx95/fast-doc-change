@@ -1,4 +1,4 @@
-package github.yangsx95.fastdocchange;
+package github.yangsx95.fdc;
 
 import com.github.oxo42.stateless4j.StateMachine;
 import com.github.oxo42.stateless4j.StateMachineConfig;
